@@ -8,7 +8,9 @@ Visit the [release section of the plugins repository](https://github.com/wiris/p
 
 ### Step 2: Place plugins.war in the Resource Folder
 
-Locate the resource folder within your project and place the downloaded plugins.war file in this folder.
+Create resources folder.
+
+Locate the resources folder within your project and place the downloaded plugins.war file in this folder.
 
 ### Step 3: Start the Docker Container
 

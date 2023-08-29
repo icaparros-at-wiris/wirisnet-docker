@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  wirisnet:
+    container_name: wirisnet
+    image: tomcat:9.0-alpine
+    ports:
+      - 8080:8080
+    volumes:
+      - ./resources/plugins.war:/usr/local/tomcat/webapps/plugins.war
+    command: ["/usr/local/tomcat/bin/catalina.sh", "run"]
